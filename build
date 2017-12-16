@@ -1,0 +1,1 @@
+clang++ -g celtmarsyl.cpp `llvm-config-5.0 --cxxflags --ldflags --system-libs --libs core mcjit native` -O3 -o celtmarsyl
